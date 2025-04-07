@@ -1,0 +1,44 @@
+
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+.contenedor {
+    display: flex; 
+    align-items: center; }
+  
+  .imagen {
+    width: 150px; 
+    margin-right: 20px; 
+  }
+  
+  .texto {
+    flex: 1;
+  }
+
+.seccion {
+    background-color: #f0f0f0;
+    padding: 20px;
+    margin: 10px;
+    flex: 1 1 300px; 
+    box-sizing: border-box; 
+}
+
+.habilidades {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.habilidad {
+  background-color: lightblue;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+@media (max-width: 600px) {
+    .seccion {
+        flex-basis: 100%; 
+    }
+}

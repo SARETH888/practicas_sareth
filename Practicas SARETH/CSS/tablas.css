@@ -1,0 +1,25 @@
+/*DOCUMENTO CSS*/
+*{ margin: 0px;
+padding: 0px;}
+body {font-family:"Poppins", sans-serif ;}
+h1 {font-family:"Big Shoulders", sans-serif ;
+text-align: center }
+
+* { font-size: 18px; }
+
+.cabecera {margin-bottom: 32px;}
+
+.Tablas { margin-bottom: 32px;
+         min-height: 1px ;
+          padding: 16px 0px 16px;
+       background-color: #7fffd4; }
+
+       .tablas table { margin: auto;}
+
+       div.Horario { background-color: #a155e8;
+    margin-bottom: 36px ;}
+
+
+    .Horario { margin-bottom: 32px;
+            height: 25px;}
+            .pie { background-color: #8a4ec3;}

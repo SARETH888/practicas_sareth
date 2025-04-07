@@ -1,0 +1,43 @@
+/*Documento css*/
+* {margin: 0px;
+     padding: 0px;}
+
+
+body {background-color: #eab26f;
+    font-family: "Big Shoulders Stencil", sans-serif; }
+
+h1 { text-align: center;
+font-size: 32px;}
+
+h2 { padding: 8px 0px;}
+
+.cabecera {margin-bottom: 16px;
+           margin-top: 16px;}
+
+ .musica { width: 80%;
+        margin: 16px auto;
+        padding-top: 16px;
+    background-color: #f2cc9d;}
+
+    .musica audio { display: block;
+                    margin: auto;
+                    padding-bottom: 16px;}
+
+ .videos { width: 80%;
+           height: 350px;
+          margin: 16px auto 200px auto;
+           display: flex;}
+          
+
+.videos div { width: 50%;}
+
+.videos div iframe, .videos video { width: 100%;
+                                     height: 300px;}
+
+
+
+
+
+.pie {background-color: #c97c1d;
+      padding: 16px 0px;
+    text-align: center;}
